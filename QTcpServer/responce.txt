@@ -1,0 +1,14 @@
+The NOAA Extended Reconstruction Sea Surface Temperature (ERSST) provides global, spatially complete SST data at a monthly timestep for 1854-present. Version5 is based upon statistical interpolation of the ICOADS release 3.0 data. Argo float data are used in the recent years (since ~2000). The data are distributed as anomalies; climatologies (absolute values) are available for 1971-2000.  The creators of version 5 took some steps to alleviate the overly smooth and damped anomaly fields in ERSSTv4. ERSST forms the basis for NOAA's merged global land-ocean surface temperature analysis.
+
+In ERSSTv5, corrections to reconcile different measurement types (ship engine room intakes, ship bucket, buoys) are based on comparisons of the binned but unadjusted SST data with an independent dataset of nightime marine air temepratures for data thru 2010. The ship-based data after 2010 are adjusted using buoy SSTs.  This statistics-based approach is relatively broad-brush compared with the fine-grained, physics-based corrections employed in HadSST4 and its infilled derivative datasets (e.g. Cowtan & Way, Berkeley Earth).
+
+Globally-averaged timeseries from the latest versions of the Hadley and ERSST datasets agree very well since 1980; before 1980 there are differences that may be important for some applications.
+
+KEY STRENGTHS:
+Long record spanning 1854-present with global coverage
+Greater weight to more reliable measurements (Argo and buoy data vs. ship data) in recent years, putting the record in good agreement with SST estimates based on satellite data or air temperatures at island & coastal weather stations
+Less smoothing than in previous version; more variance resolved in features like Nino-region SST anomalies
+KEY LIMITATIONS:
+Potential biases and large uncertainties around the WW2 period and before 1900 (is relatively warm before 1900 compared with other SST datasets)
+Large uncertainties in the Arctic and Southern Oceans
+Relatively coarse adjustments (based on a statistical model) employed to reconcile different measurement types
